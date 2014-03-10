@@ -161,4 +161,5 @@
 
 
 	</profiles>
+	<name>webapp</name>
 </project>
