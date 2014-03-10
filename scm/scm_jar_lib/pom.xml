@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   
+  <!-- =========================================================== -->
+  <!-- Basics -->
+  <!-- =========================================================== -->
+   
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>so.examples</groupId>
+    <artifactId>jar_lib</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+    <name>WebApp Common files</name>
+    <description>WebApp Common files</description>
+
+  <!-- =========================================================== -->
+  <!-- Properties -->
+  <!-- =========================================================== -->
+
+    <properties>
+      
+        <!-- other plugin versions -->
+        <version.compiler.plugin>2.3.2</version.compiler.plugin>
+        <version.surefire.plugin>2.4.3</version.surefire.plugin>
+
+        <!-- maven-compiler-plugin -->
+        <maven.compiler.target>1.7</maven.compiler.target>
+
+    </properties>
+
+
+    <dependencyManagement>
+        <dependencies>
+         </dependencies>
+    </dependencyManagement>
+    
+        
+    <dependencies>
+       
+    </dependencies>
+
+    <build>
+        <!-- Maven will append the version to the finalName -->
+        <finalName>${project.artifactId}</finalName>
+
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${version.compiler.plugin}</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+            
+        </plugins>
+
+    </build>
+</project>

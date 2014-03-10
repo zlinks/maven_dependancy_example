@@ -1,0 +1,20 @@
+{
+	"deviceId": "44e8d0f881adb222",
+	"eventConfidence": 46.0,
+	"eventType": {
+		"detailedType": {
+			"description": "BombThreat",
+			"id": 57,
+			"active": true,
+			"val": 10
+		}
+	},
+	"location": {
+		"description": "null",
+		"id": 1,
+		"lat": 23.733277,
+		"locationName": "Location1",
+		"lon": 37.976538
+	},
+	"timeStampStart": 1392287523217
+}
