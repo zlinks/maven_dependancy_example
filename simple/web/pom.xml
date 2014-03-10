@@ -158,8 +158,5 @@
 				</plugins>
 			</build>
 		</profile>
-
-
 	</profiles>
-	<name>webapp</name>
 </project>
